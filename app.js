@@ -12,7 +12,7 @@ const usersRouter = require('./routes/users');
 // Express 引用实例化
 const app = express();
 
-// 允许访问设置
+// 项目配置允许跨域加载
 app.all('*', (req, res, next) => {
   const { origin, Origin, referer, Referer } = req.headers;
   const allowOrigin = origin || Origin || referer || Referer || '*';
