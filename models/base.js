@@ -23,13 +23,19 @@ class Base {
 
     // 查
     select() {
-        connection.query('SELECT * FROM `user`', function (error, results, fields) {
-            console.log(1, error)
-            console.log(2, results)
-            console.log(3, fields)
-        });
+
     }
 
+    // sql
+    sql(sql) {
+        return new Promise((resolve, reject) => {
+            connection.query(sql, function (error, results, fields) {
+                if (error) reject(error);
+                resolve({results, fields})
+            });
+        })
+
+    }
 
 }
 
