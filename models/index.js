@@ -1,5 +1,7 @@
 const user = require('./user')
+const food = require('./food')
 
 module.exports = {
-    user
+    user,
+    food
 }

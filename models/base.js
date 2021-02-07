@@ -7,8 +7,11 @@ class Base {
     }
 
     // 增
-    insert() {
-
+    insert(tableName, dict) {
+        const keys = Object.keys(dict);
+        const values = Object.values(dict);
+        const sql = `INSERT INTO ${tableName} (${keys.join(',')}) VALUES (${values.join(',')})`;
+        return this.sql(sql)
     }
 
     // 删
@@ -34,7 +37,6 @@ class Base {
                 resolve({results, fields})
             });
         })
-
     }
 
 }

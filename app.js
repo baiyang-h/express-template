@@ -8,6 +8,7 @@ const logger = require('./logger');
 // 路由文件引用
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const foodRouter = require('./routes/food')
 
 // Express 引用实例化
 const app = express();
@@ -45,6 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/food', foodRouter);
 
 //  捕捉404错误 catch 404 and forward to error handler
 app.use(function(req, res, next) {
