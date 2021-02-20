@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
-router.use('/get_data', FoodController.getFoodData)
+router.post('/get_data', FoodController.getFoodData)
 
 
 module.exports = router;
