@@ -29,7 +29,7 @@ const FoodController = {
 
         conditionSql = whereSql.filter(item => item).join(' and ')
 
-        const foodSql = ['SELECT * FROM food', conditionSql ? `WHERE ${conditionSql}` : '', `LIMIT ${(page-1)*pageSize}, ${pageSize}` ].join(' ')
+        const foodSql = ['SELECT * FROM meau', conditionSql ? `WHERE ${conditionSql}` : '', `LIMIT ${(page-1)*pageSize}, ${pageSize}` ].join(' ')
 
         console.log(foodSql)
 
@@ -38,7 +38,7 @@ const FoodController = {
                 // 分页数据
                 food.sql(foodSql),
                 // 总数
-                food.sql(`SELECT count(*) as total FROM food`)
+                food.sql(`SELECT count(*) as total FROM meau`)
             ])
             res.json({
                 code: 200,

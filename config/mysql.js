@@ -1,7 +1,7 @@
 module.exports = {
-    host: '127.0.0.1',
+    host: '47.99.60.91',
     port: '3306',
-    user: 'root',
-    password: 'root123456',
-    database: 'expressFrame'
+    user: 'myAdmin',
+    password: 'myAdmin123456',
+    database: 'myadmin'
 }
