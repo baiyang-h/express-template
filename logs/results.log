@@ -6,4 +6,155 @@
 2021-02-05 11:55:58 error [www]: GET /get_user Not Found
 2021-02-05 11:55:59 error [www]: GET /get_user Not Found
 2021-02-05 11:57:25 error [www]: GET /get_user Not Found
-2021-02-27 10:27:09 error [www]: GET /favicon.ico Not Found
+2021-02-13 23:39:52 error [www]: POST /food/get_data request aborted
+2021-02-17 23:49:17 error [www]: POST /food/get_data request aborted
+2021-02-17 23:53:16 error [www]: POST /food/get_data request aborted
+2021-02-17 23:53:47 error [www]: POST /food/get_data request aborted
+2021-02-17 23:55:03 error [www]: POST /food/get_data request aborted
+2021-02-17 23:55:14 error [www]: POST /food/get_data request aborted
+2021-02-17 23:55:14 error [www]: POST /food/get_data request aborted
+2021-02-17 23:55:36 error [www]: POST /food/get_data request aborted
+2021-02-17 23:56:44 error [www]: POST /food/get_data request aborted
+2021-02-17 23:57:18 error [www]: POST /food/get_data request aborted
+2021-02-18 00:00:05 error [www]: POST /food/get_data request aborted
+2021-02-18 00:00:39 error [www]: POST /food/get_data request aborted
+2021-02-19 10:05:46 error [www]: POST /food/get_data request aborted
+2021-02-19 11:34:55 error [www]: POST /food/get_data request aborted
+2021-02-19 11:36:48 error [www]: POST /food/get_data request aborted
+2021-02-19 11:37:03 error [www]: POST /food/get_data request aborted
+2021-02-19 11:38:03 error [www]: POST /food/get_data request aborted
+2021-02-19 11:39:13 error [www]: POST /food/get_data request aborted
+2021-02-19 11:40:31 error [www]: POST /food/get_data request aborted
+2021-02-19 11:41:20 error [www]: POST /food/get_data request aborted
+2021-02-19 11:42:10 error [www]: POST /food/get_data request aborted
+2021-02-19 11:56:10 error [www]: POST /food/get_data request aborted
+2021-02-19 11:56:33 error [www]: POST /food/get_data request aborted
+2021-02-19 12:00:32 error [www]: POST /food/get_data request aborted
+2021-02-19 12:01:21 error [www]: POST /food/get_data request aborted
+2021-02-19 12:01:48 error [www]: POST /food/get_data request aborted
+2021-02-19 13:16:11 error [www]: POST /food/get_data request aborted
+2021-02-19 13:19:13 error [www]: POST /food/get_data request aborted
+2021-02-19 13:20:32 error [www]: POST /food/get_data request aborted
+2021-02-19 13:26:53 error [www]: POST /food/get_data request aborted
+2021-02-19 13:37:43 error [www]: POST /food/get_data request aborted
+2021-02-19 13:37:59 error [www]: POST /food/get_data request aborted
+2021-02-19 13:38:30 error [www]: POST /food/get_data request aborted
+2021-02-19 13:40:22 error [www]: POST /food/get_data request aborted
+2021-02-19 13:41:04 error [www]: POST /food/get_data request aborted
+2021-02-19 14:06:40 error [www]: POST /food/get_data request aborted
+2021-02-19 14:23:59 error [www]: POST /food/get_data request aborted
+2021-02-19 14:24:35 error [www]: POST /food/get_data request aborted
+2021-02-19 14:25:13 error [www]: POST /food/get_data request aborted
+2021-02-19 14:25:44 error [www]: POST /food/get_data request aborted
+2021-02-19 14:25:58 error [www]: POST /food/get_data request aborted
+2021-02-19 14:26:22 error [www]: POST /food/get_data request aborted
+2021-02-19 14:29:55 error [www]: POST /food/get_data request aborted
+2021-02-19 14:32:20 error [www]: POST /food/get_data request aborted
+2021-02-19 14:33:06 error [www]: POST /food/get_data request aborted
+2021-02-19 14:34:03 error [www]: POST /food/get_data request aborted
+2021-02-19 14:35:34 error [www]: POST /food/get_data request aborted
+2021-02-19 14:36:39 error [www]: POST /food/get_data request aborted
+2021-02-19 14:41:26 error [www]: GET / Failed to lookup view "index" in views directory "/Users/honghuaqi/Desktop/express-template/views"
+2021-02-19 14:41:26 error [www]: GET /favicon.ico Not Found
+2021-02-19 14:41:39 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:41:50 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:41:52 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:42:11 error [www]: GET / Failed to lookup view "index" in views directory "/Users/honghuaqi/Desktop/express-template/views"
+2021-02-19 14:43:31 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:43:35 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:43:40 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:44:15 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:44:16 error [www]: GET / Cannot find module 'html'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:46:47 error [www]: GET / Cannot find module 'ejs'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:46:48 error [www]: GET / Cannot find module 'ejs'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:46:53 error [www]: GET / Cannot find module 'ejs'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:47:08 error [www]: GET / Cannot find module 'ejs'
+Require stack:
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/view.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/application.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/lib/express.js
+- /Users/honghuaqi/Desktop/express-template/node_modules/express/index.js
+- /Users/honghuaqi/Desktop/express-template/app.js
+- /Users/honghuaqi/Desktop/express-template/bin/www
+2021-02-19 14:47:43 error [www]: GET / Failed to lookup view "index" in views directory "/Users/honghuaqi/Desktop/express-template/views"
+2021-02-19 14:47:44 error [www]: GET / Failed to lookup view "index" in views directory "/Users/honghuaqi/Desktop/express-template/views"
+2021-02-19 14:50:59 error [www]: POST /[object%20Object] Not Found
+2021-02-19 16:23:51 error [www]: POST /food/get_data Unexpected token } in JSON at position 64
+2021-02-20 10:23:25 error [www]: GET /favicon.ico Not Found

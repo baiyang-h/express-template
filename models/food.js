@@ -5,6 +5,7 @@ class Food extends Base {
     constructor(props = 'food'){
         super(props);
     }
+
 }
 
 module.exports = new Food();

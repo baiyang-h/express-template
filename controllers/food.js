@@ -1,11 +1,8 @@
-const { produceConditionSql } = require('../libs/util')
-
 // 引用用户模版数据
 const { food } = require('../models');
 
 const FoodController = {
     async getFoodData(req, res, next) {
-
         const {
             // 分页
             page=1,
@@ -14,18 +11,27 @@ const FoodController = {
             tags,   // 功效介绍
             method, // 做菜方式
             level,  // 难易等级
-        } = req.query
+        } = req.body
 
         const condition = {
             name,
-            tags,
             method,
             level
         }
 
-        const conditionSql = produceConditionSql(condition)
+        const whereSql = []
+        let conditionSql = food.formatSqlCondition(condition)
+        whereSql.push(conditionSql)
+
+        if(tags) {
+            whereSql.push('tags LIKE "%' + tags + '%"');
+        }
+
+        conditionSql = whereSql.filter(item => item).join(' and ')
 
         const foodSql = ['SELECT * FROM food', conditionSql ? `WHERE ${conditionSql}` : '', `LIMIT ${(page-1)*pageSize}, ${pageSize}` ].join(' ')
+
+        console.log(foodSql)
 
         try {
             const [result1, result2] = await Promise.all([
