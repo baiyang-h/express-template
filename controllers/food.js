@@ -47,9 +47,10 @@ const FoodController = {
                     list: result1.results,
                     total: result2.results[0].total
                 },
+                success: true
             })
         } catch (e) {
-            res.json({ code: 0, message: "操作失败", data: e })
+            res.json({ code: 0, message: "操作失败", data: e, success: false })
         }
 
     }
