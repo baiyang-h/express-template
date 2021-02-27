@@ -9,8 +9,6 @@ const router = require('./routes')
 // Express 引用实例化
 const app = express();
 
-console.log(222)
-
 // 项目配置允许跨域加载
 app.all('*', (req, res, next) => {
   const { origin, Origin, referer, Referer } = req.headers;
