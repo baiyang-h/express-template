@@ -6,8 +6,27 @@ const morgan = require('morgan');
 const logger = require('./logger');
 const router = require('./routes')
 
+// 增加 swagger
+// const swaggerJsdoc = require('swagger-jsdoc')
+// const swaggerui = require('swagger-ui-express')
+
 // Express 引用实例化
 const app = express();
+
+// const options = {
+//   definition: {
+//     openapi: '3.0.0',
+//     info: {
+//       title: 'express-template',
+//       version: '1.0.0',
+//       description: 'express-template 的 Api 文档'
+//     },
+//   },
+//   apis: [path.join(__dirname, '/routes/*.js')], // files containing annotations as above
+// };
+// const openapiSpecification = swaggerJsdoc(options);
+// app.use('/api-doc', swaggerui.serve, swaggerui.setup(openapiSpecification))
+
 
 // 项目配置允许跨域加载
 app.all('*', (req, res, next) => {
@@ -41,7 +60,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-router(app);
+router(app, express);
 
 //  捕捉404错误 catch 404 and forward to error handler
 app.use(function(req, res, next) {
