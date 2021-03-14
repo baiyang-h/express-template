@@ -1,6 +1,7 @@
-var express = require('express');
+import express from 'express'
+import FoodController from '../controllers/food'
+
 var router = express.Router();
-const FoodController = require('../controllers/food')
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -9,5 +10,4 @@ router.get('/', function(req, res, next) {
 
 router.post('/get_data', FoodController.getFoodData)
 
-
-module.exports = router;
+export default router;

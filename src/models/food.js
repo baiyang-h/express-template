@@ -1,4 +1,4 @@
-const Base = require('./base');
+import Base from "./base";
 
 class Food extends Base {
     // 定义参数默认值为 food 表
@@ -8,4 +8,4 @@ class Food extends Base {
 
 }
 
-module.exports = new Food();
+export default new Food()

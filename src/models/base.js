@@ -1,5 +1,5 @@
-const connection = require('../mysql')
-const { formatSqlCondition } = require('../libs/util')
+import connection from '../mysql'
+import { formatSqlCondition } from '../libs/util'
 
 class Base {
     constructor(props){
@@ -47,4 +47,4 @@ class Base {
 
 }
 
-module.exports = Base;
+export default Base

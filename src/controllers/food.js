@@ -1,5 +1,5 @@
 // 引用用户模版数据
-const { food } = require('../models');
+import { food } from '../models'
 
 const FoodController = {
     async getFoodData(req, res, next) {
@@ -56,4 +56,4 @@ const FoodController = {
     }
 }
 
-module.exports = FoodController;
+export default FoodController

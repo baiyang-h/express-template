@@ -1,5 +1,5 @@
 // 引用用户模版数据
-const { user } = require('../models');
+import { user } from '../models'
 
 const UserController = {
     // 增
@@ -31,4 +31,4 @@ const UserController = {
 
 }
 
-module.exports = UserController;
+export default UserController

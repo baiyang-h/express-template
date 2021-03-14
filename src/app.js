@@ -1,10 +1,10 @@
-const createError = require('http-errors');
-const express = require('express');
-const path = require('path');
-const cookieParser = require('cookie-parser');
-const morgan = require('morgan');
-const logger = require('./logger');
-const router = require('./routes')
+import createError from 'http-errors'
+import express from 'express'
+import path from 'path'
+import cookieParser from 'cookie-parser'
+import morgan from 'morgan'
+import logger from './logger'
+import router from './routes'
 
 // 增加 swagger
 // const swaggerJsdoc = require('swagger-jsdoc')
@@ -56,9 +56,8 @@ app.use(express.json());   // 给为如下
 
 // 使用对 表单提交的数据 进行格式化
 app.use(express.urlencoded({ extended: true }));
-
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
 
 router(app, express);
 
@@ -81,4 +80,4 @@ const _errorHandler = (err, req, res, next) => {
 app.use(_errorHandler)
 
 
-module.exports = app;
+export default app
