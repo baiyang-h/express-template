@@ -7,25 +7,25 @@ import logger from './logger'
 import router from './routes'
 
 // 增加 swagger
-// const swaggerJsdoc = require('swagger-jsdoc')
-// const swaggerui = require('swagger-ui-express')
+import swaggerJsdoc from 'swagger-jsdoc'
+import swaggerui from 'swagger-ui-express'
 
 // Express 引用实例化
 const app = express();
 
-// const options = {
-//   definition: {
-//     openapi: '3.0.0',
-//     info: {
-//       title: 'express-template',
-//       version: '1.0.0',
-//       description: 'express-template 的 Api 文档'
-//     },
-//   },
-//   apis: [path.join(__dirname, '/routes/*.js')], // files containing annotations as above
-// };
-// const openapiSpecification = swaggerJsdoc(options);
-// app.use('/api-doc', swaggerui.serve, swaggerui.setup(openapiSpecification))
+const options = {
+  definition: {
+    openapi: '3.0.0',
+    info: {
+      title: 'express-template',
+      version: '1.0.0',
+      description: 'express-template 的 Api 文档'
+    },
+  },
+  apis: [path.join(__dirname, '/routes/*.js')], // files containing annotations as above
+};
+const openapiSpecification = swaggerJsdoc(options);
+app.use('/api-doc', swaggerui.serve, swaggerui.setup(openapiSpecification))
 
 
 // 项目配置允许跨域加载

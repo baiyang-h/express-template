@@ -1,4 +1,0 @@
-2021-03-14 18:00:29 error [www.js]: GET / Failed to lookup view "index" in views directory "/Users/clown/Desktop/express-template/dist/views"
-2021-03-14 18:01:33 error [www.js]: POST /food/get_data regeneratorRuntime is not defined
-2021-03-14 18:04:01 error [www.js]: GET / Failed to lookup view "index" in views directory "/Users/clown/Desktop/express-template/dist/views"
-2021-03-14 18:06:35 error [www.js]: GET / Failed to lookup view "index" in views directory "/Users/clown/Desktop/express-template/dist/views"
